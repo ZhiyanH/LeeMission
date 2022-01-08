@@ -48,4 +48,6 @@ const config = {
 	scene: [preload, s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, mission1, mission2, mission3, world, room1, room2, room3, gameOver, gameOver2, gameOver3, winScene]
 };
 
-export default new Phaser.Game(config)
+export default new Phaser.Game(config);
+window.heart = 3;
+window.zombie = 20;
